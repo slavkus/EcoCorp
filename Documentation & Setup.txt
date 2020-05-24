@@ -1,0 +1,36 @@
+1.) Git On Project Folder              DONE
+2.) Do Initial Start Commit            DONE
+3.) Demo View(commit) & Viewmodel(commit with working view) Connected
+with Livedata     		       DONE
+---------------------------------------------------------------         
+4.) Demo Recycler View(commit)
+5.) Explore & Implemenet Libraries From The List
+	(5) - Dagger 2 (Injection, creates during creation of activity, performance booster ?)
+		- Splash Activity To Main Activity
+		- Main Activity To Random New Activity
+	(4) - Data Binding (Binds UI components to Datasources)
+	(1) - Room - Local DB so user can browse offline, in case he cannot connect to db online
+		- Key is to achieve sync, after the user regains connection
+		- Offline Data To be sent to server and server to user
+	(2) - Retrofit 2 - For API call
+	(3) - ViewModel, LiveData
+		- Recycler View implement also
+		- dropdowns with attached datasources
+	(6) - Navigation Architecture Component
+---------------------------------------------------------------
+		Hierarchy
+
+		  View
+ 		    I
+		Viewmodel
+ 		    I
+		Repository
+		/	\
+	       DB	API
+
+---------------------------------------------------------------
+
+Documentation List:
+*Room:
+	- https://developer.android.com/training/data-storage/room
+	- https://medium.com/mindorks/using-room-database-android-jetpack-675a89a0e942
