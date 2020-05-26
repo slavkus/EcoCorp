@@ -1,5 +1,6 @@
 package database;
 
+import androidx.lifecycle.LiveData;
 import androidx.room.Dao;
 import androidx.room.Delete;
 import androidx.room.Insert;
@@ -12,12 +13,18 @@ import model.Person;
 
 @Dao
 public interface PersonDAO {
-    @Query("Select * from person")
-    List<Person> getPersonList();
+    @Query("Select * from person order by id")
+    LiveData<List<Person>> getPersonList();
+
     @Insert
     void insertPerson(Person person);
+
     @Update
     void updatePerson(Person person);
+
     @Delete
     void deletePerson(Person person);
+
+    @Query("select * from person where id = :id")
+    Person getPersonById(int id);
 }

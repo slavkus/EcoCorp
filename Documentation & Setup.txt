@@ -34,3 +34,5 @@ Documentation List:
 *Room:
 	- https://developer.android.com/training/data-storage/room
 	- https://medium.com/mindorks/using-room-database-android-jetpack-675a89a0e942
+	- https://medium.com/mindorks/using-room-database-with-livedata-android-jetpack-cbf89b677b47
+	- https://github.com/ashishrawat2911/RoomwithLiveData/blob/master/app/src/main/java/com/ashish/roomwithlivedata/database/AppExecutors.java
