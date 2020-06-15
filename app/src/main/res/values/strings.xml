@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">EcoCorp</string>
+    <string name="fab_submit">Add</string>
 </resources>

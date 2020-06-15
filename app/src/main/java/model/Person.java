@@ -13,17 +13,21 @@ public class Person {
     private String name;
     @ColumnInfo(name = "city")
     private String city;
+    @ColumnInfo(name = "email")
+    private String email;
 
-    public Person(int id, String name, String city) {
+    public Person(int id, String name, String city, String email) {
         this.id = id;
         this.name = name;
         this.city = city;
+        this.email = email;
     }
 
     @Ignore
-    public Person(String name, String city) {
+    public Person(String name, String city, String email) {
         this.name = name;
         this.city = city;
+        this.email = email;
     }
 
     public int getId() {
@@ -48,5 +52,13 @@ public class Person {
 
     public void setCity(String city) {
         this.city = city;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
     }
 }
