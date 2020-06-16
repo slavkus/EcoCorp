@@ -17,7 +17,7 @@
             android:layout_marginLeft="20dp"
             android:layout_marginTop="10dp"
             android:layout_marginRight="20dp"
-            android:background="@color/cardview_light_background"
+            android:background="@color/white"
             android:hint="Enter name"
             android:inputType="text"
             android:padding="20dp" />
@@ -29,7 +29,7 @@
             android:layout_marginLeft="20dp"
             android:layout_marginTop="10dp"
             android:layout_marginRight="20dp"
-            android:background="@color/cardview_light_background"
+            android:background="@color/white"
             android:hint="Enter email"
             android:inputType="textEmailAddress"
             android:padding="20dp" />
@@ -41,7 +41,7 @@
             android:layout_marginLeft="20dp"
             android:layout_marginTop="10dp"
             android:layout_marginRight="20dp"
-            android:background="@color/cardview_light_background"
+            android:background="@color/white"
             android:hint="Enter city"
             android:padding="20dp" />
 
@@ -51,7 +51,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_margin="20dp"
-            android:background="@color/cardview_light_background"
+            android:background="@color/white"
             android:padding="20dp"
             android:text="Save" />
     </LinearLayout>
